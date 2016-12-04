@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#0099cc"
+android:orientation="vertical"
+android:padding="16dp"
+tools:context="org.skypotato.punchingbag.MainMenuActivity">
+
+<Button
+    android:id="@+id/startBt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start" />
+
+<Button
+    android:id="@+id/scoreBt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Score" />
+
+<Button
+    android:id="@+id/exitBt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Exit" />
+
+
+</LinearLayout>
+
+
